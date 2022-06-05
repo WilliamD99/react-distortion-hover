@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#app2 {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+}
+
+#content-1 {
+  top: 10rem;
+  left: 50%;
+  width: 10rem;
+  height: 3rem;
+  z-index: 2000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-50%);
+}
+
+#content-2 {
+  top: 20rem;
+  left: 50%;
+  width: 10rem;
+  height: 3rem;
+  z-index: 2000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-50%);
+}
+
+.content {
+  position: absolute;
+  background-color: white;
+}
